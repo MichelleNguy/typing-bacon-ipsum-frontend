@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer type="text/javascript" src="src/index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="game-menu">
+        <h1>Select a game from the list below:</h1>
+        <ol id="game-list">
+            <!-- list of games go here -->
+        </ol>
+        <h2 id="game-desc"></h2>
+        <ol id="game-scores">
+
+        </ol>
+    </div>
+<!--  -->
+
+    <div class="hide-me" id="my-progress">
+        <div id="my-bar"></div>
+    </div>
+    
+
+<!--  -->
+    <div class="hide-me"id="main-container">
+        <span id="current-letter"></span>
+        <p id="paragraph"></p>
+        <div id="button-wrapper">
+            <button class="type-off" id="type-btn">START TYPING</button>
+        </div>
+        <div>
+            <h1 id="score"></h1>
+            <h1 id="wpm"></h1>
+        </div>
+    </div>
+
+    <div id="score-card" class="hide-me">
+        <h1 id=score-text>Hello</h1>
+        <form id="score-form">
+            <input class="test"id="username-input" name="username" type="text" placeholder="name" autocomplete="off">
+            <input class="score-button" id="submit-button" type="submit" value="SUBMIT SCORE">
+        </form>
+        <!-- <button class="score-button" id="submit-button">SUBMIT SCORE</button> -->
+        <button class="score-button" id="new-game-button">NEW GAME</button>
+    </div>
+
+</body>
+</html>

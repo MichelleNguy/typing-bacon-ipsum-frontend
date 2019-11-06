@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+
+* {
+    font-size: 18px;
+    font-family: 'Fira Mono', monospace;
+}
+
+#main-container {
+    margin: 50px auto;
+    width: 90%;
+}
+
+#game-list li:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+
+#score-card {
+    width: 50%;
+    margin: 50px auto;
+}
+
+#username-input{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.delete-score-button {
+    margin: 0px 5px;
+}
+
+.score-button {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.score-button:hover{
+    background-color: darkgrey;
+}
+
+ #submit-button { 
+    margin: 10px 0px 0px 0px;
+ }
+
+ /*
+ #new-game-button {
+    width: 49%;
+    float: right;
+ } */
+
+#wpm,
+#score {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid red;
+}
+
+#current-letter {
+    float: left;
+    color: red;
+}
+
+#paragraph {
+    display: inline;
+    margin: auto;
+    color: darkgray;
+}
+
+#button-wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+#type-btn {
+    width: 100%;
+    margin: 50px 0px;
+    height: 25px;
+}
+
+#my-progress {
+    width: 100%;
+    height: 30px;
+    /* position: relative; */
+    background-color: rgb(143, 64, 64);
+}
+
+#my-bar {
+    background-color: #4CAF50;
+    width: 100%;
+    height: 30px;
+    /* position: absolute; */
+}
+
+body {
+    border: 5px solid lightgrey;
+    padding: 10px;
+}
+
+.hide-me{
+    display: none;
+}
