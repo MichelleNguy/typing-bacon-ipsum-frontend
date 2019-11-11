@@ -81,9 +81,15 @@
     },
     {
       "game_id": 1,
-      "player_name": "SukritSucks",
-      "wpm": 75,
-      "id": 17
+      "player_name": "Bob",
+      "wpm": 64.8,
+      "id": 18
+    },
+    {
+      "game_id": 1,
+      "player_name": "Bob",
+      "wpm": 63.4,
+      "id": 19
     }
   ]
 }
