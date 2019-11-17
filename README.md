@@ -10,6 +10,13 @@ The backend can be found in the following link:
 
 https://github.com/Jmendoza173/TypingBaconIpsum-Backend
 
+### Demo
+
+![gif of typing backon ipsum game](./src/public/bacon-gif.gif)
+
+#### video below:
+[![Demo video of typing bacon ipsum](https://img.youtube.com/vi/SXFo7Kj8nB8/0.jpg)](https://www.youtube.com/watch?v=SXFo7Kj8nB8 "typing bacon ipsum demo")
+
 ### Screenshots
 
 ![screenshot of Typing Bacon Ipsum web app, showcasing home page where a player can select a game and see high scores](./src/public/screenshot_1.png?raw=true "Home")

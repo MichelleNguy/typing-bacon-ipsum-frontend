@@ -33,12 +33,6 @@
     },
     {
       "game_id": 1,
-      "player_name": "MichelleRocks",
-      "wpm": 73.4,
-      "id": 8
-    },
-    {
-      "game_id": 1,
       "player_name": "Michelle",
       "wpm": 81.6,
       "id": 9
@@ -90,6 +84,18 @@
       "player_name": "Bob",
       "wpm": 63.4,
       "id": 19
+    },
+    {
+      "game_id": 1,
+      "player_name": "Michelle",
+      "wpm": 38.2,
+      "id": 20
+    },
+    {
+      "game_id": 1,
+      "player_name": "Michelle",
+      "wpm": 78,
+      "id": 21
     }
   ]
 }
