@@ -208,7 +208,6 @@ gameScores.addEventListener("click", (evt) => {
             method: "DELETE"
         })
             .then( () => {
-                // let li = document.querySelectorAll(`button[data-id='${scoreId}']`)
                 evt.target.parentElement.remove()
             })
     }
